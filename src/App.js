@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://media.licdn.com/dms/image/C4E03AQEd_NkbXA_llA/profile-displayphoto-shrink_200_200/0/1517726227744?e=1706140800&v=beta&t=qcI8TVPzEdTC0F8DO-1bPYw1x4mn29vZJuWDyY5pzVM" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Rotating D
         </p>
         <a
           className="App-link"
