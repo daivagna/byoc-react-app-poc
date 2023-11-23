@@ -3,6 +3,8 @@ import './App.css';
 import * as FEAAS from "@sitecore-feaas/clientside/react";
 
 import Button from './Components/Button.tsx'; // Import the Button component
+import "./byoc/ExampleClientsideComponent.tsx";
+import ExampleClientsideComponent from './byoc/ExampleClientsideComponent.tsx';
 
 function App() {
   return (
@@ -18,8 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        
-        {/* <FEAAS.ExternalComponentBundle />x */}
+        <ExampleClientsideComponent />
         <Button /> 
         </a>
       </header>
