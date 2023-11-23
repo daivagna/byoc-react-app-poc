@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Button from '.components/Button'; // Import the Button component
+import Button from './Components/Button.tsx'; // Import the Button component
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Button></Button>
+        <Button /> 
         </a>
       </header>
     </div>

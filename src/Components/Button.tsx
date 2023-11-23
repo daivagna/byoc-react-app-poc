@@ -8,7 +8,7 @@ interface ButtonProps {
   onClick?: () => void;
 }
 
-const BYOCButton: FC<ButtonProps> = ({ text, variant, size, onClick }) => {
+const Button = ({ text, variant, size, onClick }) => {
   let buttonStyle: React.CSSProperties = {
     padding: "8px 16px",
     borderRadius: "4px",
@@ -73,13 +73,15 @@ const BYOCButton: FC<ButtonProps> = ({ text, variant, size, onClick }) => {
   }
 
   return (
-    <button style={buttonStyle} onClick={onClick}>
-      <span>This is sample text from D</span>
-    </button>
+    <>
+      <button>
+        <span>This is sample text from D</span>
+      </button>
+    </>
   );
 };
 
-FEAAS.registerComponent(BYOCButton, {
+FEAAS.registerComponent(Button, {
   name: "MyButton",
   title: "Our own BYOC Button",
   description: "Description of my Button component",
@@ -103,4 +105,4 @@ FEAAS.registerComponent(BYOCButton, {
   },
 });
 
-export default BYOCButton;
+export default Button;
