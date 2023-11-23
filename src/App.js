@@ -20,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        <ExampleClientsideComponent />
+        <ExampleClientsideComponent firstName="daivagna" lastName="Nanavati" />
         <Button /> 
         </a>
       </header>

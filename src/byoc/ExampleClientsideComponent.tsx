@@ -20,7 +20,7 @@ export default function ExampleClientsideComponent(props: {
   }, []);
 
   console.log("props are " + JSON.stringify(props));
-
+  console.log("firstname is =" + props.firstName);
   return (
     <>
       <h2>Clientside</h2>
