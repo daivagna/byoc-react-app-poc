@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import * as FEAAS from "@sitecore-feaas/clientside/react";
 
 import Button from './Components/Button.tsx'; // Import the Button component
 
@@ -17,6 +18,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+        
+        {/* <FEAAS.ExternalComponentBundle />x */}
         <Button /> 
         </a>
       </header>
