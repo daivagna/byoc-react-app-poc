@@ -12,12 +12,10 @@ import * as FEAAS from "@sitecore-feaas/clientside/react";
  */
 
 // Clientside-only component
-import "./ExampleClientsideComponent";
+import "./ExampleClientsideComponent.tsx";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (props: any) => {
   debugger;
   return FEAAS.ExternalComponent(props);
 };
-
-
-

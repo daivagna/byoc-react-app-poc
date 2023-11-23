@@ -37,7 +37,7 @@ export default function ExampleClientsideComponent(props: {
         <dd>
           <var>{counter}</var>s elapsed
         </dd>
-        {props.children && props.children.length != 0 && (
+        {props.children && props.children.length !== 0 && (
           <>
             <dt>Children</dt>
             <dd>{props.children}</dd>
