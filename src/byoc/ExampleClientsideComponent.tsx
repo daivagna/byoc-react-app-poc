@@ -19,6 +19,8 @@ export default function ExampleClientsideComponent(props: {
     return () => clearInterval(interval);
   }, []);
 
+  console.log("props are " + JSON.stringify(props));
+
   return (
     <>
       <h2>Clientside</h2>
