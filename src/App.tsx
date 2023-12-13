@@ -3,7 +3,8 @@ import * as FEAAS from "@sitecore-feaas/clientside/react";
 
 import Button from "./Components/Button.tsx"; // Import the Button component
 import "./byoc/ExampleClientsideComponent.tsx";
-import ExampleClientsideComponent from "./byoc/ExampleClientsideComponent.tsx";
+import "./Components/StaticHTML.tsx";
+import StaticButton from "./Components/StaticHTML.tsx";
 import React from "react";
 
 function App() {
@@ -34,6 +35,8 @@ function App() {
             lastName="Doe"
             telephone={5551234}
           />
+          <FEAAS.ExternalComponent componentName="StaticButton" />
+          <StaticButton />
         </a>
       </header>
     </div>
